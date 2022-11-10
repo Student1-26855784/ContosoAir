@@ -1,8 +1,5 @@
    pool:
      name: default
-     demands:
-      - test
-      - Agent.Version -equals 2.199
    trigger:
      - master
    steps:
