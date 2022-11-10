@@ -1,5 +1,7 @@
    pool:
      name: default
+     demands:
+      -test
    trigger:
      - master
    steps:
