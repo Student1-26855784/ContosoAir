@@ -1,5 +1,7 @@
    pool:
      name: default
+     demands:
+     - agent.name -equals DESKTOP-MQ4L9DH
    trigger:
      - master
    steps:
